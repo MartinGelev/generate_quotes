@@ -1,0 +1,107 @@
+const morning_quotes=[
+    "Always believe something wonderful is about to happen.",
+    "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "Today you are you. That is truer than true. There is no one alive who is youer than you!",
+    "What you do today can improve all your tomorrows.",
+    "Don’t be afraid to fail; it’s proof you’ll soon be successful.",
+    "Two things define you: 1. Your patience when you have nothing. 2. Your attitude when you have everything.",
+    "A year from now, you may wish you had started today.",
+    "The secret of getting ahead is getting started.",
+    "Find something you’re passionate about and keep tremendously interested in it.",
+    "You’ve got to get up every morning with determination if you’re going to bed with satisfaction.",
+    "The individual who says it is not possible should move out of the way of those doing it.",
+    "Your talent determines what you can do. Your motivation determines how much you are willing to do. Your attitude determines how well you do it.",
+    "Go as far as you can see and you will see further.",
+    "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "When someone tells me ‘no,’ it doesn’t mean I can’t do it. It just means I can’t do it with them.",
+    "Light tomorrow with today.",
+    "Build your own dreams or someone else will hire you to build theirs.",
+    "Never give up on a dream because of the time it will take to accomplish. The time will pass anyway.",
+    "Someday is not a day of the week.",
+    "Obsessed is just a word the lazy use to describe the dedicated.",
+    "The more I want to get something done, the less I call it work.",
+    "I find that the harder I work, the less I call it work.",
+    "The only way to do great work is to love what you do.",
+    "Don’t count the days. Make the days count.",
+    "Even if you’re on the right track, you’ll get run over if you just sit there.",
+    "You can decide where your time goes. You can either spend it moving forward or you can spend it putting out fires.",
+    "Make today your masterpiece.",
+    "Success is the sum of small efforts repeated day in and day out.",
+    "If you don’t design your own life plan, chances are you’ll fall into someone else’s plan. And guess what they have planned for you? Not much.",
+    "Success only comes to those who dare to attempt."
+]
+
+const daily_qoutes = [
+    "A problem is a chance for you to do your best.",
+    "Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today.",
+    "Never let your head hang down. Never give up and sit down and grieve. Find another way. And don’t pray when it rains if you don’t pray when the sun shines.",
+    "It is only in our darkest hours that we may discover the true strength of the brilliant light within ourselves that can never, ever, be dimmed.",
+    "Learn how to be happy with what you have while you pursue all that you want.",
+    "I will love the light for it shows me the way, yet I will endure the darkness for it shows me the stars.",
+    "Next to trying and winning, the best thing is trying and failing.",
+    "Just as despair can come to one only from other human beings, hope, too, can be given to one only by other human beings.",
+    "Have great hopes and dare to go all out for them. Have great dreams and dare to live them. Have tremendous expectations and believe in them.",
+    "We should always pray for help, but we should always listen for inspiration and impression to proceed in ways different from those we may have thought of.",
+    "The friend in my adversity I shall always cherish most. I can better trust those who helped to relieve the gloom of my dark hours than those who are so ready to enjoy with me the sunshine of my prosperity.",
+    "He knows not his own strength who hath not met adversity.",
+    "The gem cannot be polished without friction, nor man perfected without trials.",
+    "Prosperity is a great teacher; adversity is a greater. Possession pampers the mind; privation trains and strengthens it.",
+    "The greatest glory in living lies not in never failing, but in rising every time we fail.",
+    "Every adversity, every failure and every heartache carries with it the seed of an equivalent or a greater benefit.",
+    "The bravest sight in the world is to see a great man struggling against adversity.",
+    "Tough times never last, but tough people do.",
+    "In times of great stress or adversity, it’s always best to keep busy, to plow your anger and your energy into something positive.",
+    "Never give in. Never, never, never.",
+    "Prosperity is not without many fears and disasters; and adversity is not without comforts and hopes.",
+    "We have nothing to fear, but fear itself.",
+    "Problems are not stop signs, they are guidelines.",
+    "We must embrace pain and burn it as fuel for our journey.",
+    "Obstacles don’t have to stop you. If you run into a wall, don’t turn around and give up. Figure out how to climb it, go through it, or work around it.",
+    "Use what you’ve been through as fuel, believe in yourself and be unstoppable!",
+    "The greater the difficulty, the more glory in surmounting it. Skillful pilots gain their reputation from storms and tempests.",
+    "Things turn out the best for the people who make the best of the way things turn out.",
+    "The best way to get rid of the pain is to feel the pain. And when you feel the pain and go beyond it, you’ll see there’s a very intense love that is wanting to awaken itself.",
+    "It doesn’t matter how slow you go, as long as you don’t stop."
+] 
+
+const endday_quotes = [
+    "At the end of the day, we each have a different definition for beauty, but being yourself is the most important.",
+    "Hope is a renewable option: If you run out of it at the end of the day, you get to start over in the morning.",
+    "At the end of the day, right now, right here, wherever you are, you can make a choice to be present and happy and fulfilled.",
+    "You can waste so much energy trying to make everyone happy, but at the end of the day it's impossible to please everyone, so you just need to focus on what makes you happy.",
+    "At the end of the day, we must go forward with hope and not backward by fear and division.",
+    "At the end of the day, you can have something in your head, something in your hand, or something in your heart. What are you choosing?",
+    "It is the small steps which bring you satisfaction at the end of the day.",
+    "You know what the best thing is about the end of the day? Tomorrow, it starts all over again.",
+    "At the end of the day, give up your worries and give thanks for the journey.",
+    "At the end of the day, it's important to know what really matters most in life...your sanity, your health, your family, and the ability to start anew.",
+    "All comes out even at the end of the day, and all comes out still more even when all the days are over.",
+    "People pretend well. Jealousy sometimes doesn't live far. So know your circle. At the end of the day real situations expose fake people so pay attention.",
+    "At the end of the day, Mother Nature has only one question for us: 'What life did you nurture today?",
+    "We're all human at the end of the day, making mistakes. But learning from them is the key.",
+    "Stop worrying about what others think. At the end of the day, you have to live with you. Trust yourself. No one has to tell you when it's right. Do what you need to do.",
+    "At the end of the day, everyone wants to feel loved, appreciated, and respected.",
+    "Sometimes we're so busy trying to get things and at the end of the day, all we need is love.",
+    "At the end of the day, the position is just a position, a title is just a title, and those things come and go. It's really your essence and your values that are important.",
+    "All through your life, you'll be faced with making a decision between two things-choose the one that is right. If they are both right, then choose the one that will make you feel the best about it at the end of the day.",
+    "At the end of the day, the only thing I can do is keep working on it, keep giving myself chances, and it's going to happen.",
+    "Today is tomorrow's yesterday.",
+    "At the end of the day, all you can hope for is to go on. The older I get, the more I realize that just keeping on keeping on is what life's all about.",
+    "At the end of the day, we are all humans.",
+    "No matter how small the dishonest deed is, at the end of the day, cheating is cheating.",
+    "In the spring, at the end of the day, you should smell like dirt.",
+    "Timing and accuracy is really what matters at the end of the day.",
+    "End of the day, it's extremely important that you know yourself better than anybody else, and if you can do that, it doesn't matter what anybody thinks about you, good or bad.",
+    "But at the end of the day, if you're not doing anything wrong, you don't have anything to hide.",
+    "At the end of the day, we're all human beings, and people have their struggles and inner demons.",
+    "If you're proud of something, and if you're proud of your work at the end of the day, the experience, walking away, you can feel good about it; that's what you have to focus on."
+]
+
+function get_quote(_arrQuote = []){
+    
+    return _arrQuote[Math.floor(Math.random() * _arrQuote.length)];
+}
+
+console.log(`At the morning think: ${get_quote(morning_quotes)}`)
+console.log(`Thought the day at the hardest moments: ${get_quote(daily_qoutes)}`)
+console.log(`After the hard day always: ${get_quote(endday_quotes)}`)
